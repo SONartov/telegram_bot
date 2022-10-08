@@ -2,7 +2,7 @@ import telebot
 import pandas as pd
 import requests as rq
 
-bot = telebot.TeleBot('5634384319:AAFABGyux5ZnSQS7ETGap56dWpEjjJgIfvE')
+bot = telebot.TeleBot('')
 modem_id = ''
 per_page = ''
 mes_date = ''
@@ -10,7 +10,7 @@ red_mes = dict
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.114 '
                   'YaBrowser/22.9.1.1110 (beta) Yowser/2.5 Safari/537.36',
-    'authorization': 'Bearer v2.company.m4LRRk48jmKB6R75AjTRdiOEC73lXpvJ',
+    'authorization': 'Bearer v2.company.',
 }
 
 url = ''
